@@ -20,6 +20,11 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 }
+.nav_logo{
+display: flex;
+align-items: center;
+gap: 10px;
+}
 
 .nav-links{
 display:flex;
@@ -125,12 +130,21 @@ text-align:center;
 padding:20px;
 background:#111;
 color:white;
+bottom: 0;
+width: 100%;
 }
 
 .menu-toggle{
 display:none;
 font-size:25px;
 cursor:pointer;
+}
+
+.logo_img {
+    border-radius: 50%;
+    max-width: 75px;
+    max-height: 75px;
+    
 }
 
 @keyframes fadeUp{
