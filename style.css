@@ -169,10 +169,10 @@ cursor:pointer;
     align-items: end;
 }
 .smlkid_img{
-  width: 300px;
-  height: 300px;
-  display: flex;
-  align-items: center;
+width:300px;
+    height:300px;
+    display:block;
+    margin:20px auto;
 }
 
 #scrollBtn:hover {
