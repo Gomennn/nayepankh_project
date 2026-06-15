@@ -17,7 +17,7 @@ alert("Thank you for supporting NayePankh Foundation ❤️");
 // Get the button
 let mybutton = document.getElementById("scrollBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -28,7 +28,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document smoothly
+
 mybutton.addEventListener("click", function(){
   window.scrollTo({
     top: 0,
